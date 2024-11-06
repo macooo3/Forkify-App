@@ -5,8 +5,8 @@ export default class View {
   /**
    * Render the recieved object to the DOM
    * @param {Object | Object[]} data the data to be rendered (recipe)
-   * @param {*} render
-   * @returns
+   * @param {*} render 
+   * @returns 
    */
   render(data, render = true) {
     if (!data || (Array.isArray(data) && data.length === 0))
@@ -43,10 +43,10 @@ export default class View {
       }
 
       // Updates change ATTRIBUTE
-      if (!newEl.isEqualNode(curEl))
-        Array.from(newEl.attributes).forEach(attr =>
-          curEl.setAttribute(attr.name, attr.value)
-        );
+      if (!newEl.isEqualNode(curEl)) 
+      Array.from(newEl.attributes).forEach(attr =>
+        curEl.setAttribute(attr.name, attr.value)
+      );
     });
   }
   // will be an array of all the lements that changed attributes

@@ -69,7 +69,7 @@ export const AJAX = async function (url, uploadData = undefined) {
 //   }
 // };
 
-export const numberToFraction = function (amount) {
+export const NUMTOFRACTION = function (amount) {
   // This is a whole number and doesn't need modification.
   if (parseFloat(amount) === parseInt(amount)) {
     return amount;
