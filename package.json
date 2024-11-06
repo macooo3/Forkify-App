@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "core-js": "^3.38.1",
-    "fractional": "^1.0.0",
+    "fracty": "^1.0.11",
     "regenerator-runtime": "^0.14.1"
   },
   "browserslist": "last 2 versions, > 0.5% and ie >= 11"
